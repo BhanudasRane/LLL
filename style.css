@@ -156,7 +156,7 @@ padding-bottom: 0px;
 
     .whole{
     margin-top: 50px;
-    width: 350px;
+    
     height: 380px;
    
    margin-left: 300px;
@@ -294,7 +294,7 @@ padding-bottom: 0px;
 
     .whole{
         margin-top: 50px;
-        width: 350px;
+      
         height: 380px;
        
        margin-left: 200px;
@@ -432,143 +432,7 @@ padding-bottom: 0px;
 
       .whole{
         margin-top: 50px;
-        width: 350px;
-        height: 380px;
-       
-       margin-left: 150px;
-    
-    }
-    h1{
-        margin: 20px;
-    padding-top: 20px;
-    padding-bottom: 0px;    
-      
-    }
-    
-    #email{
-    
-        
-        box-sizing: border-box;
-        
-        cursor: pointer;
-        font-weight: 600px;
-        margin: 0px 50px 0 50px;
-      
-         margin-top: 50px; 
-         
-        
-        
-        
-    }
-    
-    #box1{
-        width: 250px;
-    }
-    #pass{
-        box-sizing: border-box;
-        
-        cursor: pointer;
-        font-weight: 600px;
-        margin: 0px 50px 0 50px;
-       
-         margin-top: 25px; 
-        
-    }
-    .login{
-        padding-top: 10px;    
-     }
-    #log{
-         width: 250px;
-         height:20px;
-         cursor: pointer;
-         font-weight: bold;
-         margin-left: 50px;
-         text-align: center;
-         color:white;
-         margin-top: 20px;
-         background-color: rgb(44, 44, 165);
-         border: 0px solid #73AD21;    
-         
-       
-     }
-    
-     .or{
-        
-        margin-left: 50px;
-    }
-    #line{
-        width: 100px;
-        border: 2px solid black ;
-        margin: 20px 10px 0 0;
-         float: left;
-        
-    }
-    #or1{
-        float: left;
-        margin-top: 15px;
-        margin-left: 5px;
-        
-        
-    }
-    #line1{
-        width: 100px;
-        margin-top: 20px;
-        border: 2px solid black ;
-        margin: 20px 0 0 10px;
-         float: left;
-        
-    }
-    
-    .facebook{
-        padding-top: 10px;
-        margin-top: 35px;
-        
-    }
-    #face{
-        width: 250px;
-        height:20px;
-        cursor: pointer;
-        font-weight: bold;
-      
-        margin-left: 50px;
-        text-align: center;
-        color: whitesmoke;
-        
-        background-color: rgb(13, 13, 243);
-        
-        
-      
-    }
-    #face1{
-        color: white;
-    }
-    
-    #forgot{
-        margin-left: 110px;
-        margin-top: 20px;
-    }
-    .base{
-        width: 350px;
-        height: 70px;
-        margin-top: 20px;
-        border: 2px solid black;
-        background-color:white;
-        margin-left: 150px;
-    }
-    
-    #footer{
-        text-align: center;
-        padding: 25px;
-    }
-    
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 479px) and (min-width:350px){
-    .whole{
-        margin-top: 50px;
-        width: 350px;
-        height: 380px;
+              height: 380px;
        
        margin-left: 100px;
     
@@ -695,13 +559,14 @@ padding-bottom: 0px;
         text-align: center;
         padding: 25px;
     }
+    
 }
 
-@media only screen and (max-width:349px) and (min-width:293px){
-
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 479px) and (min-width:350px){
     .whole{
         margin-top: 50px;
-        width: 350px;
+      
         height: 380px;
        
        margin-left: 50px;
@@ -823,6 +688,140 @@ padding-bottom: 0px;
         border: 2px solid black;
         background-color:white;
         margin-left: 50px;
+    }
+    
+    #footer{
+        text-align: center;
+        padding: 25px;
+    }
+}
+
+@media only screen and (max-width:349px) and (min-width:293px){
+
+    .whole{
+        margin-top: 50px;
+       margin-right: 150;
+        height: 1000px;
+       display: block;
+       margin-left: 0px;
+    
+    }
+    h1{
+        margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;    
+      
+    }
+    
+    #email{
+    
+        
+        box-sizing: border-box;
+        
+        cursor: pointer;
+        font-weight: 600px;
+        margin: 0px 50px 0 50px;
+      
+         margin-top: 50px; 
+         
+        
+        
+        
+    }
+    
+    #box1{
+        width: 250px;
+    }
+    #pass{
+        box-sizing: border-box;
+        
+        cursor: pointer;
+        font-weight: 600px;
+        margin: 0px 50px 0 50px;
+       
+         margin-top: 25px; 
+        
+    }
+    .login{
+        padding-top: 10px;    
+     }
+    #log{
+         width: 250px;
+         height:20px;
+         cursor: pointer;
+         font-weight: bold;
+         margin-left: 50px;
+         text-align: center;
+         color:white;
+         margin-top: 20px;
+         background-color: rgb(44, 44, 165);
+         border: 0px solid #73AD21;    
+         
+       
+     }
+    
+     .or{
+        
+        margin-left: 50px;
+    }
+    #line{
+        width: 100px;
+        border: 2px solid black ;
+        margin: 20px 10px 0 0;
+         float: left;
+        
+    }
+    #or1{
+        float: left;
+        margin-top: 15px;
+        margin-left: 5px;
+        
+        
+    }
+    #line1{
+        width: 100px;
+        margin-top: 20px;
+        border: 2px solid black ;
+        margin: 20px 0 0 10px;
+         float: left;
+        
+    }
+    
+    .facebook{
+        padding-top: 10px;
+        margin-top: 35px;
+        
+    }
+    #face{
+        width: 250px;
+        height:20px;
+        cursor: pointer;
+        font-weight: bold;
+      
+        margin-left: 50px;
+        text-align: center;
+        color: whitesmoke;
+        
+        background-color: rgb(13, 13, 243);
+        
+        
+      
+    }
+    #face1{
+        color: white;
+    }
+    
+    #forgot{
+        margin-left: 110px;
+        margin-top: 20px;
+    }
+    .base{
+        width: 350px;
+        height: 70px;
+        margin-top: 20px;
+        border: 2px solid black;
+        background-color:white;
+        margin-left: 0px;
     }
     
     #footer{
